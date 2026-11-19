@@ -1,0 +1,19 @@
+{
+  "name": "bills-platform",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Airtime, data, electricity, TV and exam PIN payments with a Paystack-funded wallet",
+  "main": "src/server.js",
+  "engines": {
+    "node": ">=22.13"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test test/"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "nodemailer": "^10.6.0"
+  }
+}
